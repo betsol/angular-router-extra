@@ -1,0 +1,11 @@
+{
+    "name": "angular-router-extra",
+    "description": "Extra functionality for betsol-angular-router",
+    "version": "1.0.0",
+    "main": "src/angular-router-extra.js",
+    "dependencies": {
+        "betsol-angular-router": "~1.0.1"
+    },
+    "devDependencies": {
+    }
+}
