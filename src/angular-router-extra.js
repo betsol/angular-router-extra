@@ -234,8 +234,10 @@
                 suffix = 'Ctrl';
             }
 
+            var routeName = route.name.replace(/[-_]/g, nameDelimiter);
             var controllerName = '';
-            var parts = (route.name).split(nameDelimiter);
+            var parts = routeName.split(nameDelimiter);
+
             for (var i in parts) {
                 var part = parts[i];
 

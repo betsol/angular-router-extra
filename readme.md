@@ -1,3 +1,5 @@
+# angular-router-extra 1.0.1
+
 This is additional functionality for [`angular-router`][angular-router].
 
 # License
